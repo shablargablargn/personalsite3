@@ -6,13 +6,21 @@ body{
 
 h1{
     color: rgb(17, 126, 189);
-    text-shadow: 3px 1px 1px black;
+}
+
+h2{
+    margin: 10px;
+    color: white;
+}
+
+img{
+    width: 10rem;
 }
 
 .website{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:left;
 }
 
 .HeadBar{
@@ -23,7 +31,7 @@ h1{
     align-items: baseline;
     margin: 5px;
 
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
     /* width: 100%; */
@@ -50,20 +58,20 @@ padding: 5px;
 }
 
 .AbtMe2{
-    top: 500px;
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    align-items: center;
 }
 
+.Flint{
+    
+}
 
-
-
-
-
-h1{
-    color: rgb(17, 126, 189);
-    text-shadow: 3px 1px 1px black;
+.AbtMe2 > .paragraph{
+    padding: 10px;
 }
 
 /* div{
@@ -119,9 +127,7 @@ h1{
     width: 50%;
 }
 
-/* .Flint{
-    max-height: 50%;
-} */
+
 
 .Link2:link{
     color: white;
