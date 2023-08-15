@@ -1,7 +1,10 @@
 
+/* All pages */
 body{
     background-color:rgb(17, 126, 189);
     margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 h1{
@@ -10,74 +13,11 @@ h1{
 
 h2{
     margin: 10px;
-    color: white;
 }
 
 img{
     width: 10rem;
 }
-
-.website{
-    display: flex;
-    flex-direction: column;
-    align-items:left;
-}
-
-.HeadBar{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    margin: 5px;
-
-    top: 0px;
-    left: 0;
-    right: 0;
-    /* width: 100%; */
-
-}
-
-.Header, .HeadLink{
-padding: 5px;
-
-}
-
-.HeadBar > first-child{
-    flex: 1;
-}
-
-.HeadLink{
-    display: flex;
-    flex: 3;
-    align-items: end;
-    justify-content:right;
-    gap: 10px;
-
-
-}
-
-.AbtMe2{
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    padding: 10px;
-    color: white;
-    align-items: center;
-}
-
-
-.AbtMe2 > .paragraph{
-    padding: 10px;
-}
-
-/* div{
-    font-family:Impact;
-    font-size: x-large;
-    margin-right: 50%;
-    color: white;
-    text-shadow: 4px 3px 2px black;
-} */
 
 .Link{
     font-size: x-large;
@@ -100,44 +40,71 @@ padding: 5px;
 }
 
 
-.AbtMe, .Interests{
-    width: 65%;
-    max-height: 10%;
-
+/* About Page */
+.website{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
 }
 
-.Interests{
-    font-size: large;
+.HeadBar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 5px;
 
+    top: 0px;
+    left: 0;
+    right: 0;
 }
 
-.Gamer{
-    max-width: 150%;
-    height: auto;
+.Header, .HeadLink{
+padding: 5px;
 }
 
-/* .MeParagraph{
-    padding: 15px;
-} */
-
-.row1{
-    width: 50%;
+.HeadBar > first-child{
+    flex: 1;
 }
 
+.HeadLink{
+    display: flex;
+    flex: 3;
+    align-items: end;
+    justify-content:right;
+    gap: 10px;
+}
 
-
-.Link2:link{
+.AbtMe2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
     color: white;
+    align-items: center;
 }
 
-.Link2:visited{
-    color: red;
+
+.AbtMe2 > .paragraph{
+    padding: 10px;
 }
 
-.Link2:hover{
-    color: orange;
+/* Home Page */
+
+.MainQuote{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    font-size: xx-large;
 }
 
-.Link2:active{
-    color: rgb(255, 251, 0);
+/* Portfolio */
+
+.portBlock{
+    background-color: white;
+    color: rgb(17, 126, 189);
+    margin: 15px;
+    padding: 0px 0px 10px 10px;
 }
