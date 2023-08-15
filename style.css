@@ -1,0 +1,140 @@
+
+body{
+    background-color:rgb(17, 126, 189);
+    margin: 0px;
+}
+
+h1{
+    color: rgb(17, 126, 189);
+    text-shadow: 3px 1px 1px black;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.HeadBar{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 5px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+
+}
+
+.Header, .HeadLink{
+padding: 5px;
+
+}
+
+.HeadBar > first-child{
+    flex: 1;
+}
+
+.HeadLink{
+    display: flex;
+    flex: 3;
+    align-items: end;
+    justify-content:right;
+    gap: 10px;
+
+
+}
+
+.AbtMe2{
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+h1{
+    color: rgb(17, 126, 189);
+    text-shadow: 3px 1px 1px black;
+}
+
+/* div{
+    font-family:Impact;
+    font-size: x-large;
+    margin-right: 50%;
+    color: white;
+    text-shadow: 4px 3px 2px black;
+} */
+
+.Link{
+    font-size: x-large;
+}
+
+.Link:link{
+    color: rgb(17, 126, 189);
+}
+
+.Link:visited{
+    color: red;
+}
+
+.Link:hover{
+    color: orange;
+}
+
+.Link:active{
+    color: rgb(255, 251, 0);
+}
+
+
+.AbtMe, .Interests{
+    width: 65%;
+    max-height: 10%;
+
+}
+
+.Interests{
+    font-size: large;
+
+}
+
+.Gamer{
+    max-width: 150%;
+    height: auto;
+}
+
+/* .MeParagraph{
+    padding: 15px;
+} */
+
+.row1{
+    width: 50%;
+}
+
+/* .Flint{
+    max-height: 50%;
+} */
+
+.Link2:link{
+    color: white;
+}
+
+.Link2:visited{
+    color: red;
+}
+
+.Link2:hover{
+    color: orange;
+}
+
+.Link2:active{
+    color: rgb(255, 251, 0);
+}
